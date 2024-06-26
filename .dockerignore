@@ -1,0 +1,17 @@
+# Exclude everything in the target directory
+target/*
+
+# Include only the JAR file in the target directory
+!target/*.jar
+
+# Ignore other common directories and files
+.git
+.gitignore
+*.md
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+.vscode/
+node_modules/
